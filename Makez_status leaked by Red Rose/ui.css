@@ -1,0 +1,96 @@
+.playerStats{
+    position: absolute;
+    left: 350px; /* Default: 350px */
+    bottom: 20px; /* Default: 20px */
+    left: 82.0%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+    bottom: 1.85%; /* (1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.status{
+    display: flex;
+    width: 290px;
+    position: relative;
+    justify-content: space-between;
+}
+
+
+.hunger{
+    border: 0px solid rgba(0,0,0,1);
+    border-radius: 0px;
+    width: 55px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0,0, 0.4);
+    rotate: z 9.43rad;
+}
+
+.hunger .bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    rotate: z 9.43rad;
+}
+
+.hunger img{
+    width: 55%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#boxHunger {
+    background: linear-gradient(to top, #FF6F00  0%, #FF6F00  100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+#boxThirst {
+    background: linear-gradient(to top, #0288D1 0%, #0288D1 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxStamina {
+    background: linear-gradient(to top, #99cc00 0%, #669900 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxHealth {
+    background: linear-gradient(to top, #00ff00 0%, #009933 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxHealth {
+    background: linear-gradient(to top, #0cd500 0%, #0aaf00 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+#boxArmor {
+    background: linear-gradient(to top, #d51414 100%, #d51414 100%);
+	width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+/*#boxVoice {
+    background: rgba(0, 0, 0, 0.0);
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+}*/
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:100%;
+}
